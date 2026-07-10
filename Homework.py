@@ -1,10 +1,7 @@
-v_DOB1="7/9/2015"
-v_DOB2="8/1/2022"
-v_DOB3="5/5/2015"
-v_DOB4="9/9/2000"
-v_DOB5="10/10/2010"
-print(v_DOB1)
-print(v_DOB2)
-print(v_DOB3)
-print(v_DOB4)
-print(v_DOB5)
+num=int(input("Enter a number:"))
+temp=num
+digits=0
+while temp>0:
+    temp//=10
+    digits=digits+1
+print("The number of digits your number contains is",digits)
