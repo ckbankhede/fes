@@ -1,0 +1,11 @@
+dict={"Max":90,"Neha":80,"Arav":92,"John":82,"Alex":91}
+average=0
+print(max(dict))
+print(min(dict))
+average=90+80+92+82+91
+average=average/5
+print("average:",average)
+user_input=input("State a student name")
+print(user_input,dict.get(user_input))
+print("Top scorer: Arav")
+print("Top scorer: Neha")
